@@ -37,7 +37,7 @@ class Round:
         hands_actual = self.players[player]['actual']
 
         if hands_predicted == hands_actual:
-            return 10 + self.cards_per_hand
+            return 10 + hands_actual
 
         return hands_actual
         
